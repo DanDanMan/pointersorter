@@ -119,7 +119,11 @@ int main (int argc, char ** argv){
 	
 	char * sorted[x];
 
+	if(x==1){
+		sort(0,1,word,sorted);
+	}else{
 	sort(0,x-1, words,sorted );
+	}
 	//printf("\n");
 	//printf("X: %i", x);
 	int fuck = 0;
